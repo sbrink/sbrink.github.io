@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Ostrich';
+    src: url('fonts/ostrich-light-webfont.eot');
+    src: url('fonts/ostrich-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ostrich-light-webfont.woff') format('woff'),
+    url('fonts/ostrich-light-webfont.ttf') format('truetype'),
+    url('fonts/ostrich-light-webfont.svg#ostrich_sanscondensed_light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ostrich';
+    src: url('fonts/ostrich-regular-webfont.eot');
+    src: url('fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ostrich-regular-webfont.woff') format('woff'),
+    url('fonts/ostrich-regular-webfont.ttf') format('truetype'),
+    url('fonts/ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ostrich';
+    src: url('fonts/ostrich-black-webfont.eot');
+    src: url('fonts/ostrich-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/ostrich-black-webfont.woff') format('woff'),
+    url('fonts/ostrich-black-webfont.ttf') format('truetype'),
+    url('fonts/ostrich-black-webfont.svg#ostrich_sansblack') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #515151;
+    color: #fffefd;
+    margin-top: 100px;
+}
+
+.page-header {
+    text-align: center;
+    font-size: 100px;
+    font-family: Ostrich;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px #393939;
+}
+
+.page-header em {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 115%;
+}
